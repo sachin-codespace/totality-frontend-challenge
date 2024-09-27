@@ -26,14 +26,25 @@ A responsive, user-friendly design ensures a smooth checkout process.
 The platform is fully responsive, providing an optimal experience across all devices.
 The layout adapts to different screen sizes, ensuring ease of use on mobile and desktop.
 
+
 Tech Stack
+
 Frontend: React.js
+
 Styling: CSS (with media queries for responsive design)
+
 State Management: React Hooks
+
 Data: Static data for property listings (stored in data.js file)
 
+
+
 Approach
+
 Modular Structure: The application is divided into reusable components like Header, Hero, Recent, and Checkout, ensuring scalability.
+
 Dynamic Filters: Implemented real-time filtering based on location, price, and number of bedrooms.
+
 Cart Management: Managed state to handle booking operations such as adding, removing, and updating properties in the cart.
+
 Checkout Integration: Simulated a checkout process, calculating the total price and displaying the booked properties.
