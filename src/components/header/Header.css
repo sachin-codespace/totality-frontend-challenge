@@ -1,0 +1,32 @@
+header {
+  background-color: #fff;
+  box-shadow: 0 5px 30px rgba(0, 22, 84, 0.1);
+  padding: 15px 0;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+header span {
+  padding: 3px 10px;
+  background: #27ae60;
+  border-radius: 50%;
+  color: #ffffff;
+  margin-right: 4px;
+}
+
+h4 {
+  margin: 0;
+  cursor: pointer;
+}

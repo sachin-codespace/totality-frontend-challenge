@@ -1,0 +1,80 @@
+.hero {
+  width: 100%;
+}
+
+
+.container-hero{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.hero h1 {
+  color: #382f2f;
+  font-size: 36px;
+}
+
+.hero p {
+  color: #846d6d;
+  opacity: 0.8;
+}
+
+form {
+  display: flex;
+  background-color: #fff;
+  border-radius: 5px;
+  flex-wrap: wrap;
+}
+
+form .box {
+  padding: 15px;
+  flex: 1;
+  min-width: 200px;
+}
+
+form input, form select {
+  padding: 10px;
+  width: 100%;
+  border: 1px solid rgba(128, 128, 128, 0.2);
+  margin-top: 5px;
+  border-radius: 5px;
+  color: rgb(100, 97, 97);
+}
+
+form span {
+  font-size: 14px;
+  color: black;
+}
+
+input::placeholder {
+  font-size: 14px;
+  color: rgb(100, 97, 97);
+}
+
+@media screen and (max-width: 600px) {
+  .hero .container {
+    padding-top: 20px;
+  }
+  .hero h1{
+    font-size: 4vw;
+  }
+  .hero p{
+    font-size: 3vw;
+  }
+  form {
+    flex-direction: column;
+    width: 70%;
+  }
+  form input{
+    width: 100%;
+  }
+
+  form .box {
+    padding: 10px;
+    width: 100%;
+  }
+
+  form input, form select {
+    width: 100%;
+  }
+}
